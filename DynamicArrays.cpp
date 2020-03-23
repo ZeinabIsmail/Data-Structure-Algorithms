@@ -31,6 +31,8 @@ int main()
         sum+=arr[i];
 
     }
+  
     cout<<sum<<endl;
+   delete [] arr;
     return 0;
 }
